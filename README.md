@@ -10,3 +10,4 @@ To install
 
 install_github("dsself/StandardCountries")
 ```
+To use standarize country names using `country_name(x)` and then create the or overwrite a vector for the Correlates of War IDs using `country_code(x)`

@@ -73,6 +73,7 @@ Bhutan,Bhutan
 BOLIVIA,Bolivia
 bolivia,Bolivia
 Bolivia,Bolivia
+Bosnia-Herz,Bosnia-Herzegovina
 BOSNIA-HERZEGOVINA,Bosnia-Herzegovina
 Bosnia-Herzegovina,Bosnia-Herzegovina
 BosniaHerzegovina,Bosnia-Herzegovina
@@ -128,12 +129,14 @@ cameroon,Cameroon
 Cameroon,Cameroon
 CANADA,Canada
 Canada,Canada
+C. Verde Is.,Cape Verde
 Cape-Verde,Cape Verde
 Capeverde,Cape Verde
 CAPE VERDE,Cape Verde
 CAPE VERDE IS.,Cape Verde
 Cape Verde Is.,Cape Verde
 Cape Verde,Cape Verde
+Cent. Af. Rep.,Central African Republic
 Centralafricanrepublic,Central African Republic
 CENTRAL AFRICAN REPUBLIC,Central African Republic
 Central African Rep.,Central African Republic
@@ -149,6 +152,7 @@ Chad,Chad
 CHILE,Chile
 chile,Chile
 Chile,Chile
+Prc,China
 People'S Republic Of China,China
 Chn,China
 CHN,China
@@ -159,6 +163,7 @@ China,China
 Columbia,Colombia
 COLOMBIA,Colombia
 Colombia,Colombia
+Comoro Is.,Comoros
 COMOROS,Comoros
 Comoros,Comoros
 Republic Of The Congo,Congo
@@ -181,6 +186,7 @@ Congo Brazzaville,Congo
 Congo (Brazzaville),Congo
 Congo (Brazz),Congo
 Congo,Congo
+Congo (Drc),"Congo, Democratic Republic of (Zaire)"
 Zaire,"Congo, Democratic Republic of (Zaire)"
 ZAIRE,"Congo, Democratic Republic of (Zaire)"
 Zaire,"Congo, Democratic Republic of (Zaire)"
@@ -250,6 +256,8 @@ croatia,Croatia
 Croatia,Croatia
 CUBA,Cuba
 Cuba,Cuba
+Turkish Republic of Northern Cyprus,Turkish Republic of Northern Cyprus
+Turk Cyprus,Turkish Republic of Northern Cyprus
 CYPRUS,Cyprus
 Cyprus,Cyprus
 Czechrepublic,Czech Republic
@@ -268,6 +276,7 @@ Dijbouti,Djibouti
 Djibouti,Djibouti
 DOMINICA,Dominica
 Dominica,Dominica
+Dom. Rep.,Dominican Republic
 Dominicanrep,Dominican Republic
 DOMINICAN REPUBLIC,Dominican Republic
 dominican republic,Dominican Republic
@@ -300,6 +309,7 @@ Elsalvador,El Salvador
 EL SALVADOR,El Salvador
 el salvador,El Salvador
 El Salvador,El Salvador
+Eq. Guinea,Equatorial Guinea
 Equitorial Guinea,Equatorial Guinea
 EQUATORIAL GUINEA,Equatorial Guinea
 Equatorial Guinea,Equatorial Guinea
@@ -362,6 +372,7 @@ Gambia,Gambia
 GEORGIA,Georgia
 georgia,Georgia
 Georgia,Georgia
+Gdr,German Democratic Republic
 "GERMANY, EAST",German Democratic Republic
 "Germany, East",German Democratic Republic
 "Germany, E.",German Democratic Republic
@@ -390,6 +401,7 @@ German Federal Republic,German Federal Republic
 German Fed. Rep.,German Federal Republic
 German Fed Rep,German Federal Republic
 Federal Republic Of Germany,German Federal Republic
+Frg/Germany,German Federal Republic
 German Federal Republic,German Federal Republic
 GHANA,Ghana
 ghana,Ghana
@@ -527,6 +539,7 @@ Korea Dem.People's Rep.,"Korea, People's Republic of"
 Korea Dem.People'S Rep.,"Korea, People's Republic of"
 Korea (Democratic People'S Rep. Of),"Korea, People's Republic of"
 "Korea, People's Republic of","Korea, People's Republic of"
+Rok,"Korea, Republic of"
 Southkorea,"Korea, Republic of"
 South Korea,"Korea, Republic of"
 SOUTH KOREA,"Korea, Republic of"
@@ -767,6 +780,7 @@ Palestine,Palestine
 PANAMA,Panama
 panama,Panama
 Panama,Panama
+P. N. Guinea,Papua New Guinea
 Png,Papua New Guinea
 PAPUA NEW GUINEA,Papua New Guinea
 PAPUA N.GUINEA,Papua New Guinea
@@ -943,12 +957,14 @@ slovak republic,Slovakia
 Slovakia,Slovakia
 SLOVENIA,Slovenia
 Slovenia,Slovenia
+Solomon Is.,Solomon Islands
 SOLOMON ISLANDS,Solomon Islands
 SOLOMON IS.,Solomon Islands
 Solomon Islands,Solomon Islands
 Somaliland,Somaliland
 SOMALIA,Somalia
 Somalia,Somalia
+S. Africa,South Africa
 Southafrica,South Africa
 South Africa0,South Africa
 SOUTH AFRICA,South Africa
@@ -1015,6 +1031,7 @@ Tokelau Islands,Tokelau
 Tokelau,Tokelau
 TONGA,Tonga
 Tonga,Tonga
+Trinidad-Tobago,Trinidad and Tobago
 Trinidad/Tobago,Trinidad and Tobago
 TRINIDAD&TOBAGO,Trinidad and Tobago
 Trinidad&Tobago,Trinidad and Tobago
@@ -1068,6 +1085,7 @@ United Arab E.,United Arab Emirates
 Uae,United Arab Emirates
 UAE,United Arab Emirates
 United Arab Emirates,United Arab Emirates
+Uk,United Kingdom
 UNITED KINGDOM,United Kingdom
 United Kingdom of Great Britain and Northern Ireland,United Kingdom
 U.K.,United Kingdom
@@ -1137,6 +1155,7 @@ WALLIS & FUTUNA,Wallis and Futuna
 Wallis & Futuna,Wallis and Futuna
 Wallis and Futuna,Wallis and Futuna
 "Yemen, Republic of","Yemen, Republic of"
+Yemen (Ar),Yemen (Arab Republic of Yemen)
 "Yemen,(Arab Republic of Yemen)",Yemen (Arab Republic of Yemen)
 "Yemen,(Arab Republic Of Yemen)",Yemen (Arab Republic of Yemen)
 "Yemen, Rep.",Yemen (Arab Republic of Yemen)
@@ -1154,6 +1173,7 @@ North Yemen,Yemen (Arab Republic of Yemen)
 NORTH YEMEN,Yemen (Arab Republic of Yemen)
 North Yemen,Yemen (Arab Republic of Yemen)
 Yemen (Arab Republic of Yemen),Yemen (Arab Republic of Yemen)
+Yemen (Pdr),"Yemen, People's Republic of"
 "Yemen, South","Yemen, People's Republic of"
 "Yemen, S.","Yemen, People's Republic of"
 "Yemen, People's Republic Of","Yemen, People's Republic of"

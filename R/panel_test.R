@@ -7,7 +7,6 @@ library(devtools)
 
 cnames <- read_csv("StandardizeCountries/TestPanel.csv")
 
-t.d[!(t.d$V1>1 & t.d$V3<9), "V4"] <- 0
 
 country_panel <- function(x, y) {
 

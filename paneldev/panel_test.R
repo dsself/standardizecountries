@@ -1,10 +1,12 @@
-setwd("paneldev")
-library(readr)
-library(dplyr)
-library(devtools)
+#setwd("paneldev")
+#library(readr)
+#library(dplyr)
+#library(devtools)
 
 cnames <- read_csv("TestPanel.csv") %>%
   mutate(time = as.numeric(time))
+
+
 
 country_panel <- function(x, y) {
   ifelse(cnames$time < y, 
@@ -13,7 +15,9 @@ country_panel <- function(x, y) {
   )
 }
 
-d1 <- read_csv("TestData.csv") %>%
+d1 <- read_csv("TestData.csv") 
+
+d1 <- data.frame(d1, stringsAsFactors = FALSE)%>%
   select(countryname, year) %>%
   mutate(year = as.numeric(year)) %>%
   mutate(test = country_panel(countryname, year)) %>%

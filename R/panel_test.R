@@ -10,7 +10,8 @@ cnames <- read_csv("StandardizeCountries/TestPanel.csv")
 
 country_panel <- function(x, y) {
 
-    cnames[(y < cnames$min)] <- cnames[match(x,cnames$country),]$panel
+    #cnames[(y < cnames$min)] <- cnames[match(x,cnames$country),]$panel
+   return(cnames[match(x, cnames$country), y < cnames$min,]$panel)
 }
 
 
@@ -25,5 +26,5 @@ country_panel <- function(x, y) {
 
 d1 <- read_csv("C:/Users/darin/Documents/V-dem/OLG/WDI/WDI Educ Dataset.csv") %>%
   select(countryname, year) %>%
-  #filter(grepl("Viet", countryname) | grepl("Yemen", countryname)) %>%
+  filter(grepl("Viet", countryname) | grepl("Yemen", countryname)) %>%
   mutate(test = country_panel(countryname, year))

@@ -1,4 +1,4 @@
-# StandardCountries
+# standardcountries
 Social scientists that work with cross sections of countries typically work with many different datasets and each dataset seems to vary names of countries. The list of possible country names was drawn from a Stata .do file complied by [Rich Nielsen](http://web.mit.edu/polisci/people/faculty/rich-nielsen.html) around 2010 and I have since updated the list with variations of country names that I have found. 
 
 This package will allow users to standardize country names and then correlate direclty to [Correlates of War](http://www.correlatesofwar.org/) IDs. 

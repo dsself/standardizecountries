@@ -7,7 +7,7 @@ Users may wonder why I created this package in addition to the  [countrycode](ht
 
 To install
 ```
-devtools::install_github("dsself/StandardCountries")
+devtools::install_github("dsself/standardcountries")
 library(standard)
 ```
 To use standarize country names using `country_name(x)` and then create the or overwrite a vector for the Correlates of War IDs using `country_code(x)`

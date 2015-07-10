@@ -15,9 +15,7 @@ country_panel <- function(x, y) {
   )
 }
 
-d1 <- read_csv("TestData.csv") 
-
-d1 <- data.frame(d1, stringsAsFactors = FALSE)%>%
+d1 <- read_csv("TestData.csv") %>%
   select(countryname, year) %>%
   mutate(year = as.numeric(year)) %>%
   mutate(test = country_panel(countryname, year)) %>%

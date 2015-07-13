@@ -1,4 +1,4 @@
-setwd("C:/Users/darin/Documents/StandardCountries")
+setwd("C:/Users/darin/Documents/standardizecountries")
 library(readr)
 library(devtools)
 ccodes <- read_csv("StandardizeCountries/CountryCodes.csv")

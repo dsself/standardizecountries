@@ -10,7 +10,7 @@ country_name(x)
 \item{x}{}
 }
 \value{
-A Vector of Standardized Country Names
+A Vector of Country Names
 }
 \description{
 country_name

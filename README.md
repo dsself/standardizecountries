@@ -12,4 +12,6 @@ library(standard)
 ```
 To use standarize country names using `country_name(x)` and then create the or overwrite a vector for the Correlates of War IDs using `country_code(x)`
 
+I also include a function `country_panel(x, y)` that accounts for some merging of countries. Specifically the cases of North/South Vietnam (1976) and Yemen (1990). 
+
 Please help me identify potential variants of country names so I can add them.

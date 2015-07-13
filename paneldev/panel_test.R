@@ -1,24 +1,23 @@
-setwd("paneldev")
-library(readr)
-library(dplyr)
-library(devtools)
+#setwd("paneldev")
+#library(readr)
+#library(dplyr)
+#library(devtools)
 
 cnames <- read_csv("TestPanel.csv") 
 
 
-
 country_panel <- function(x, y) {
-  ifelse(cnames$time < y, 
-         cnames[match(x, cnames$country),]$standardize,
-         cnames[match(x, cnames$country),]$panel
-  )
-}
+  
+       cnames[match(x, cnames$country),]$panel
+  ifelse(x == "Vietnam, Democratic Republic of" & y > 1975, "Vietnam", ifelse(x == "Yemen (Arab Republic of Yemen)" & y > 1989, "Yemen, Republic of", x))
 
-d1 <- read_csv("TestData.csv") 
+  }
+
+d1 <- read_csv("TestData.csv") %>%
   select(countryname, year) %>%
-  mutate(year = as.numeric(year)) %>%
   mutate(test = country_panel(countryname, year)) %>%
-  filter(grepl("Viet", countryname) | grepl("Yemen", countryname)) 
+  filter(grepl("Vietn", countryname) | grepl("Yemen", countryname))
+
 
 
 

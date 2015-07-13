@@ -28,7 +28,7 @@ country_name <- function(x) {
 country_panel <- function(x, y) {
   
   z <- function() {cnames[match(x, cnames$country),]$standardize}
-  ifelse(z() == "Vietnam, Democratic Republic of" & y > 1975, "Vietnam", ifelse(x == "Yemen (Arab Republic of Yemen)" & y > 1989, "Yemen, Republic of", z()))
+  ifelse(z() == "Vietnam, Democratic Republic of" & y > 1975, "Vietnam", ifelse(z() == "Yemen (Arab Republic of Yemen)" & y > 1989, "Yemen, Republic of", z()))
   
 }
 

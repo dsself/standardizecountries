@@ -23,8 +23,8 @@ country_name <- function(x) {
 #' @export
 #'
 #' @examples
-#' country_panel("Vietnam", 1975) #returns "Vietnam, Democratic Republic of"
-#' country_panel("Vietnam", 1976) #returns "Vietnam"
+#' country_panel("Vietnam, Democratic Republic of", 1970) #returns "Vietnam, Democratic Republic of"
+#' country_panel("Vietnam, Democratic Republic of", 1977) #returns "Vietnam"
 country_panel <- function(x, y) {
   
   cnames[match(x, cnames$country),]$standardize

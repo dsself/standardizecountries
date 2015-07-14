@@ -25,6 +25,7 @@ Netherlands Antilles,Antilles
 NETHERLANDS ANTILLES,Antilles
 Antilles,Antilles
 Antilles,Antilles
+Argentine,Argentina
 ARGENTINA,Argentina
 argentina,Argentina
 Argentina,Argentina
@@ -74,6 +75,7 @@ Bhutan,Bhutan
 BOLIVIA,Bolivia
 bolivia,Bolivia
 Bolivia,Bolivia
+Bosnia and Herzigova,Bosnia-Herzegovina
 Bosnia-Herz,Bosnia-Herzegovina
 BOSNIA-HERZEGOVINA,Bosnia-Herzegovina
 Bosnia-Herzegovina,Bosnia-Herzegovina
@@ -593,6 +595,7 @@ Kyrgyz Rep,Kyrgyz Republic
 Kyrghz Republic,Kyrgyz Republic
 Kyrghz republic,Kyrgyz Republic
 Kyrgyz Republic,Kyrgyz Republic
+Lao Republic,Laos
 LAOS,Laos
 Laos Pdr,Laos
 "Lao, Pdr",Laos
@@ -784,6 +787,7 @@ Palestine,Palestine
 PANAMA,Panama
 panama,Panama
 Panama,Panama
+Papua New Guninea,Papua New Guinea
 P. N. Guinea,Papua New Guinea
 Png,Papua New Guinea
 PAPUA NEW GUINEA,Papua New Guinea
@@ -966,6 +970,7 @@ SOLOMON ISLANDS,Solomon Islands
 SOLOMON IS.,Solomon Islands
 Solomon Islands,Solomon Islands
 Somaliland,Somaliland
+Somali,Somalia
 SOMALIA,Somalia
 Somalia,Somalia
 S. Africa,South Africa
@@ -1035,6 +1040,7 @@ Tokelau Islands,Tokelau
 Tokelau,Tokelau
 TONGA,Tonga
 Tonga,Tonga
+Trinidad and Tobaggo,Trinidad and Tobago
 Trinidad-Tobago,Trinidad and Tobago
 Trinidad/Tobago,Trinidad and Tobago
 TRINIDAD&TOBAGO,Trinidad and Tobago
@@ -1089,12 +1095,14 @@ United Arab E.,United Arab Emirates
 Uae,United Arab Emirates
 UAE,United Arab Emirates
 United Arab Emirates,United Arab Emirates
+UK,United Kingdom
 Uk,United Kingdom
 UNITED KINGDOM,United Kingdom
 United Kingdom of Great Britain and Northern Ireland,United Kingdom
 U.K.,United Kingdom
 Great Britain,United Kingdom
 United Kingdom,United Kingdom
+US,United States of America
 united states,United States of America
 usa,United States of America
 Usa,United States of America
@@ -1159,6 +1167,7 @@ WALLIS & FUTUNA,Wallis and Futuna
 WALLIS & FUTUNA,Wallis and Futuna
 Wallis & Futuna,Wallis and Futuna
 Wallis and Futuna,Wallis and Futuna
+Yemen,Yemen (Arab Republic of Yemen)
 "Yemen, Rep.",Yemen (Arab Republic of Yemen)
 "Yemen, Republic of","Yemen, Republic of"
 Yemen (Ar),Yemen (Arab Republic of Yemen)

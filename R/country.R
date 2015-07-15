@@ -15,7 +15,7 @@ country_name <- function(x) {
 #'
 #' @param x
 #'
-#' @return A Vector of Standardized Country Names
+#' @return A Vector of Un-standardized Country Names
 #' 
 #' @param Y
 #' 
@@ -27,8 +27,8 @@ country_name <- function(x) {
 #' country_panel("Vietnam, Democratic Republic of", 1977) #returns "Vietnam"
 country_panel <- function(x, y) {
   
-  z <- function() {cnames[match(x, cnames$country),]$standardize}
-  ifelse(z() == "Vietnam, Democratic Republic of" & y > 1975, "Vietnam", ifelse(z() == "Yemen (Arab Republic of Yemen)" & y > 1989, "Yemen, Republic of", z()))
+  z <- paste(x, y, sep = ".")
+  cpanel[match(z, cpanel$merged),]$standardize
   
 }
 

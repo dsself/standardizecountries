@@ -10,8 +10,8 @@ To install
 devtools::install_github("dsself/standardcountries")
 library(standard)
 ```
-To use standarize country names using `country_name(x)` and then create the or overwrite a vector for the Correlates of War IDs using `country_code(x)`
+To use standarize country names using `country_name(x)` and then create the or overwrite a vector for the Correlates of War IDs using `country_code(x)`.
 
-I also include a function `country_panel(x, y)` that accounts for some merging of countries. Specifically the cases of North/South Vietnam (1976) and Yemen (1990). 
+If you are using panel (longitudinal, time-series cross-sectional) data and want to account for splits or mergers of countries (e.g. Czechoslovakia or Vietnam) use `country_panel(x,y)` where `x` is the country name to be standardized and `y` is the year variable. 
 
-Please help me identify potential variants of country names so I can add them.
+Because this works with a list of known variations instead of regex (what `countrycode` package uses) please help me identify potential variants of country names or country mergers/splits so I can add them.

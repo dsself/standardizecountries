@@ -139,6 +139,7 @@ CAPE VERDE,Cape Verde
 CAPE VERDE IS.,Cape Verde
 Cape Verde Is.,Cape Verde
 Cape Verde,Cape Verde
+Cen African Rep,Central African Republic
 Cent. Af. Rep.,Central African Republic
 Centralafricanrepublic,Central African Republic
 CENTRAL AFRICAN REPUBLIC,Central African Republic
@@ -170,6 +171,7 @@ Colombia,Colombia
 Comoro Is.,Comoros
 COMOROS,Comoros
 Comoros,Comoros
+"Congo (Brazzaville, Republic Of Congo)",Congo
 Republic Of The Congo,Congo
 Congo-Brazzaville,Congo
 Congo/ Rep.,Congo
@@ -189,7 +191,10 @@ CONGO,Congo
 Congo Brazzaville,Congo
 Congo (Brazzaville),Congo
 Congo (Brazz),Congo
+Congo-Brz,Congo
 Congo,Congo
+"Democratic Republic Of The Congo (Zaire, Congo-Kinshasha)","Congo, Democratic Republic of (Zaire)"
+Congo/Zaire,"Congo, Democratic Republic of (Zaire)"
 Congo (Drc),"Congo, Democratic Republic of (Zaire)"
 Zaire,"Congo, Democratic Republic of (Zaire)"
 ZAIRE,"Congo, Democratic Republic of (Zaire)"
@@ -633,6 +638,7 @@ Liechtenstein,Liechtenstein
 LITHUANIA,Lithuania
 lithuania,Lithuania
 Lithuania,Lithuania
+Luxemburg,Luxembourg
 LUXEMBOURG,Luxembourg
 Luxembourg,Luxembourg
 Macau,Macao
@@ -1188,6 +1194,7 @@ North Yemen,Yemen (Arab Republic of Yemen)
 NORTH YEMEN,Yemen (Arab Republic of Yemen)
 North Yemen,Yemen (Arab Republic of Yemen)
 Yemen (Arab Republic of Yemen),Yemen (Arab Republic of Yemen)
+Yemen Pdr (South),"Yemen, People's Republic of"
 Yemen (Pdr),"Yemen, People's Republic of"
 "Yemen, South","Yemen, People's Republic of"
 "Yemen, S.","Yemen, People's Republic of"

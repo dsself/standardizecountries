@@ -7,10 +7,7 @@
 country_name(x)
 }
 \arguments{
-\item{x}{}
-}
-\value{
-A Vector of Country Names
+\item{x}{A Vector of Country Names}
 }
 \description{
 country_name

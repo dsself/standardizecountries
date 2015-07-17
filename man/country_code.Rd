@@ -4,19 +4,30 @@
 \alias{country_code}
 \title{country_code}
 \usage{
-country_code(x)
+country_code(x, y, z)
 }
 \arguments{
-\item{x}{}
-}
-\value{
-A Vector of Standardized Country Names
+\item{x}{A vector that contains codes or country names}
+
+\item{y}{Coding type of x (Enclose in quotes "")}
+
+\item{z}{Coding type returned from x (Enclose in quotes "")}
 }
 \description{
 country_code
 }
+\note{
+As with the package countrycode the following types are supported: Correlates of War character,
+  CoW-numeric, ISO3-character, ISO3-numeric, ISO2-character, IMF numeric, International
+  Olympic Committee, FIPS 10-4, FAO numeric, United Nations numeric,
+  World Bank character, standardized country names converted by function \code{country_name}.
+
+  The following strings are available respective to the types supported \code{y} or
+  \code{z}: "cowc", "cown", "iso3c", "iso3n", "iso2c", "imf",
+  "fips104", "fao", "ioc", "un", "wb", "country".
+}
 \examples{
-country_code("Canada") #returns 20
-country_code(c("Canada","Bahrain")) #returns c(20, 692)
+country_code("Canada", "country", "cown") #returns 20
+country_code("Canada", "country", "cowc") #returns "CAN"
 }
 

@@ -7,20 +7,15 @@
 country_panel(x, y)
 }
 \arguments{
-\item{x}{}
+\item{x}{A Vector of Un-standardized Country Names}
 
-\item{Y}{}
-}
-\value{
-A Vector of Standardized Country Names
-
-A Vector of Numeric Years
+\item{y}{A Vector of Numeric Years}
 }
 \description{
 country_panel
 }
 \examples{
-country_panel("Vietnam", 1975) #returns "Vietnam, Democratic Republic of"
-country_panel("Vietnam", 1976) #returns "Vietnam"
+country_panel("Vietnam, Democratic Republic of", 1970) #returns "Vietnam, Democratic Republic of"
+country_panel("Vietnam, Democratic Republic of", 1977) #returns "Vietnam"
 }
 

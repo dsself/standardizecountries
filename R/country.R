@@ -1,8 +1,6 @@
 #' country_name
 #'
-#' @param x
-#'
-#' @return A Vector of Country Names
+#' @param x A Vector of Country Names
 #' @export
 #'
 #' @examples
@@ -13,13 +11,9 @@ country_name <- function(x) {
 
 #' country_panel
 #'
-#' @param x
-#'
-#' @return A Vector of Un-standardized Country Names
+#' @param x A Vector of Un-standardized Country Names
 #' 
-#' @param Y
-#' 
-#' @return A Vector of Numeric Years
+#' @param y A Vector of Numeric Years
 #' @export
 #'
 #' @examples
@@ -34,14 +28,26 @@ country_panel <- function(x, y) {
 
 #' country_code
 #'
-#' @param x
+#' @param x  A vector that contains codes or country names 
+#' @param y  Coding type of x (Enclose in quotes "")
+#' @param z  Coding type returned from x (Enclose in quotes "")
+#' 
+#' @note As with the package countrycode the following types are supported: Correlates of War character,
+#'   CoW-numeric, ISO3-character, ISO3-numeric, ISO2-character, IMF numeric, International
+#'   Olympic Committee, FIPS 10-4, FAO numeric, United Nations numeric,
+#'   World Bank character, standardized country names converted by function \code{country_name}.
 #'
-#' @return A Vector of Standardized Country Names
+#'   The following strings are available respective to the types supported \code{y} or
+#'   \code{z}: "cowc", "cown", "iso3c", "iso3n", "iso2c", "imf",
+#'   "fips104", "fao", "ioc", "un", "wb", "country".  
+#'   
 #' @export
 #'
 #' @examples
-#' country_code("Canada") #returns 20
-#' country_code(c("Canada","Bahrain")) #returns c(20, 692)
-country_code <- function(x) {
-  return(ccodes[match(x,ccodes$country),]$id)
+#' country_code("Canada", "country", "cown") #returns 20
+#' country_code("Canada", "country", "cowc") #returns "CAN"
+country_code <- function(x, y, z) {
+  
+  return(ccodes[match(x, ccodes[[y]]),][[z]])
+  
 }

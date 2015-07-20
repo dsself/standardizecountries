@@ -15,6 +15,7 @@ ANGOLA,Angola
 Angola,Angola
 ANGUILLA,Anguilla
 Anguilla,Anguilla
+Antigua and Barbuda,Antigua & Barbuda
 Antiguaandbarbuda,Antigua & Barbuda
 Antigua,Antigua & Barbuda
 Antigua And Barbuda,Antigua & Barbuda
@@ -600,6 +601,7 @@ Kyrgyz Rep,Kyrgyz Republic
 Kyrghz Republic,Kyrgyz Republic
 Kyrghz republic,Kyrgyz Republic
 Kyrgyz Republic,Kyrgyz Republic
+"Lao, PDR",Laos
 Lao Republic,Laos
 LAOS,Laos
 Laos Pdr,Laos
@@ -830,6 +832,7 @@ Romania,Rumania
 ROMANIA,Rumania
 romania,Rumania
 Rumania,Rumania
+USSR,Russia (Soviet Union)
 Ussr,Russia (Soviet Union)
 U.S.S.R.,Russia (Soviet Union)
 SOVIET UNION,Russia (Soviet Union)
@@ -1220,6 +1223,8 @@ South Yemen,"Yemen, People's Republic of"
 People'S Republic Of Yemen,"Yemen, People's Republic of"
 Democratic Yemen,"Yemen, People's Republic of"
 "Yemen, People's Republic of","Yemen, People's Republic of"
+"Yugoslavia, FPR",Yugoslavia (Serbia)
+"Yugoslavia, FR (Serbia/Montenegro)",Yugoslavia (Serbia)
 Yugoslavia2,Yugoslavia (Serbia)
 Yugoslavia†,Yugoslavia (Serbia)
 "Yugoslavia, Fr (Serbia/Montenegro)",Yugoslavia (Serbia)
@@ -1240,7 +1245,6 @@ Yugoslavia (Serbia Minus Kosovo),Yugoslavia (Serbia)
 Yugoslavia (Serbia & Montenegro),Yugoslavia (Serbia)
 Yugoslavia (Serbia & Kosovo),Yugoslavia (Serbia)
 Yugoslavia (Former),Yugoslavia (Serbia)
-Yogoslavia,Yugoslavia (Serbia)
 Yogoslavia,Yugoslavia (Serbia)
 Sts Ex-Yugoslavia Unsp.,Yugoslavia (Serbia)
 STS EX-YUGOSLAVIA UNSP.,Yugoslavia (Serbia)

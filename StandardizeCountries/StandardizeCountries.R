@@ -2,12 +2,16 @@ setwd("C:/Users/darin/Documents/standardizecountries")
 library(hadleyverse)
 library(devtools)
 ccodes <- read_csv("StandardizeCountries/CountryCodes.csv")
-cnames <- read_csv("StandardizeCountries/CountryNames.csv")
+cnames <- read_csv("StandardizeCountries/CountryNames.csv") %>%
+  mutate(country = tolower(country)) %>%
+  unique(.)
 
-d1 <- read_csv("StandardizeCountries/CountryNames.csv")
+d1 <- read_csv("StandardizeCountries/CountryNames.csv") %>%
+  mutate(country = tolower(country)) %>%
+  unique(.)
 
 d2 <- ddply(d1, c("country"), function(DF) {
- DF <- merge(data.frame(year=1900:2014), DF[,1:2], all.x=TRUE)
+ DF <- merge(data.frame(year=1900:2015), DF[,1:2], all.x=TRUE)
  DF
 })
 

@@ -6,6 +6,7 @@
 #' @examples
 #' country_name("Canada") #returns "Canada"
 country_name <- function(x) {
+  x <- tolower(x)
   return(cnames[match(x,cnames$country),]$standardize)
 }
 
@@ -21,6 +22,7 @@ country_name <- function(x) {
 #' country_panel("Vietnam, Democratic Republic of", 1977) #returns "Vietnam"
 country_panel <- function(x, y) {
   
+  x <- tolower(x)
   z <- paste(x, y, sep = ".")
   cpanel[match(z, cpanel$merged),]$standardize
   

@@ -1,12 +1,12 @@
 #' country_name
 #'
-#' @param x A Vector of Country Names
+#' @param country A Vector of Country Names
 #' @export
 #'
 #' @examples
 #' country_name("Canada") #returns "Canada"
-country_name <- function(x) {
-  x <- tolower(x)
+country_name <- function(country) {
+  x <- tolower(country)
   return(cnames[match(x,cnames$country),]$standardize)
 }
 
@@ -20,19 +20,19 @@ country_name <- function(x) {
 #' @examples
 #' country_panel("Vietnam, Democratic Republic of", 1970) #returns "Vietnam, Democratic Republic of"
 #' country_panel("Vietnam, Democratic Republic of", 1977) #returns "Vietnam"
-country_panel <- function(x, y) {
+country_panel <- function(country, time) {
   
-  x <- tolower(x)
-  z <- paste(x, y, sep = ".")
+  x <- tolower(country)
+  z <- paste(country, time, sep = ".")
   cpanel[match(z, cpanel$merged),]$standardize
   
 }
 
 #' country_code
 #'
-#' @param x  A vector that contains codes or country names 
-#' @param y  Coding type of x (Enclose in quotes "")
-#' @param z  Coding type returned from x (Enclose in quotes "")
+#' @param origin  A vector that contains codes or country names 
+#' @param input  Coding type of origin (Enclose in quotes "")
+#' @param output  Coding type returned from origin (Enclose in quotes "")
 #' 
 #' @note As with the package countrycode the following types are supported: Correlates of War character,
 #'   CoW-numeric, ISO3-character, ISO3-numeric, ISO2-character, IMF numeric, International
@@ -48,8 +48,8 @@ country_panel <- function(x, y) {
 #' @examples
 #' country_code("Canada", "country", "cown") #returns 20
 #' country_code("Canada", "country", "cowc") #returns "CAN"
-country_code <- function(x, y, z) {
+country_code <- function(origin, input, output) {
   
-  return(ccodes[match(x, ccodes[[y]]),][[z]])
+  return(ccodes[match(origin, ccodes[[input]]),][[output]])
   
 }

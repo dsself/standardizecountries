@@ -22,7 +22,7 @@ country_name <- function(country) {
 #' country_panel("Vietnam, Democratic Republic of", 1977) #returns "Vietnam"
 country_panel <- function(country, time) {
   
-  x <- tolower(country)
+  country <- tolower(country)
   z <- paste(country, time, sep = ".")
   cpanel[match(z, cpanel$merged),]$standardize
   

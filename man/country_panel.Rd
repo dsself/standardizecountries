@@ -4,7 +4,7 @@
 \alias{country_panel}
 \title{country_panel}
 \usage{
-country_panel(x, y)
+country_panel(country, time)
 }
 \arguments{
 \item{x}{A Vector of Un-standardized Country Names}

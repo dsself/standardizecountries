@@ -4,10 +4,10 @@
 \alias{country_name}
 \title{country_name}
 \usage{
-country_name(x)
+country_name(country)
 }
 \arguments{
-\item{x}{A Vector of Country Names}
+\item{country}{A Vector of Country Names}
 }
 \description{
 country_name

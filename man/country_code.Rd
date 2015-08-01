@@ -4,14 +4,14 @@
 \alias{country_code}
 \title{country_code}
 \usage{
-country_code(x, y, z)
+country_code(origin, input, output)
 }
 \arguments{
-\item{x}{A vector that contains codes or country names}
+\item{origin}{A vector that contains codes or country names}
 
-\item{y}{Coding type of x (Enclose in quotes "")}
+\item{input}{Coding type of origin (Enclose in quotes "")}
 
-\item{z}{Coding type returned from x (Enclose in quotes "")}
+\item{output}{Coding type returned from origin (Enclose in quotes "")}
 }
 \description{
 country_code

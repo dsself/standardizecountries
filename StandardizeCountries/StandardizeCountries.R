@@ -3,10 +3,12 @@ library(hadleyverse)
 library(devtools)
 ccodes <- read_csv("StandardizeCountries/CountryCodes.csv")
 cnames <- read_csv("StandardizeCountries/CountryNames.csv") %>%
+  mutate(country = iconv(country, 'UTF-8', 'ASCII')) %>% 
   mutate(country = tolower(country)) %>%
   unique(.)
 
 d1 <- read_csv("StandardizeCountries/CountryNames.csv") %>%
+  mutate(country = iconv(country, 'UTF-8', 'ASCII')) %>% 
   mutate(country = tolower(country)) %>%
   unique(.)
 

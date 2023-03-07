@@ -1,4 +1,4 @@
-setwd("C:/Users/darin/Documents/standardizecountries")
+setwd("C:/Users/selfd/Documents/standardizecountries")
 library(tidyverse)
 library(devtools)
 ccodes <- read_csv("StandardizeCountries/CountryCodes.csv")
@@ -13,7 +13,7 @@ d1 <- read_csv("StandardizeCountries/CountryNames.csv") %>%
   unique(.)
 
 d2 <- plyr::ddply(d1, c("country"), function(DF) {
- DF <- merge(data.frame(year=1900:2018), DF[,1:2], all.x=TRUE)
+ DF <- merge(data.frame(year=1900:2023), DF[,1:2], all.x=TRUE)
  DF
 })
 
